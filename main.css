@@ -1,0 +1,65 @@
+/* RESET */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* STYLING */
+body {
+    background-color:rgb(51, 64, 51);
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    background-color: rgba(130, 174, 130, 0.511);
+    max-width: 85%;
+    border-radius: 30px;
+    margin: auto;
+    padding: 50px 10px;
+}
+
+.space {
+    margin: 10px 0 30px;
+}
+
+a {
+    display: block;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color:rgb(206, 156, 235);
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: white solid 2px;
+    margin: 10px;
+}
+
+.pink {
+    background-color: rgb(255, 143, 186);
+}
+
+.black {
+    background-color: black;
+}
+
+.green {
+    background-color: rgb(85, 201, 85);
+}
+
+.other {
+    background-image: linear-gradient(red, orange, yellow, greenyellow, cyan, blue, indigo);
+}
+
+.white {
+    color: white;
+}
+
+@media(max-width:650px) {
+    .wrapper {
+        padding: 10px;
+    }
+}
